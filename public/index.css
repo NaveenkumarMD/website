@@ -1,0 +1,266 @@
+.nav-color{
+    background-color: rgb(24, 24, 24) !important;
+    color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(42,42,42);
+}
+.white-text{
+    color: rgb(239,239,239) !important;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    font-weight: 400;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.black-background{
+    background-color: rgb(24, 24, 24);
+}
+.green-background{
+    background-color: rgb(36,180,126);
+}
+
+.green-text{
+    color:rgb(36,180,126);
+}
+.black-text{
+    color: rgb(24, 24, 24);
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bi{
+    margin-right: 10px;
+}
+.head{
+    margin-left: 80px;
+}
+.heading{
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-right{
+    margin-right: 80px;
+}
+.toggler-color{
+    background-color: rgb(24, 24, 24);
+    color: rgb(42,42,42);
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn:focus,
+.btn:active{
+    outline: none;
+}
+.svg{
+  position: relative;
+  width:800px
+    
+}
+.button{
+    border-radius: 4px;
+    border: 1px solid rgb(36,180,126);
+    padding: 8px;
+}
+.main-page-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+}
+.text-1{
+    font-size: 40px;
+}
+.text-1-small{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.text-2{
+    font-size: 18px;
+}
+.text-3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Fira Mono", "Andale Mono", Consolas, monospace;
+    padding: 5px 30px;
+    margin: 20px 30px;
+    box-shadow: 0 0 10px 2px rgb(36,180,126);
+   
+    cursor: pointer;
+}
+.flex-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description{
+    padding-top: 20px;
+}
+.main-text{
+    max-width: 500px;
+}
+.gray-text{
+    color: rgb(156,187,187);
+}
+.btns-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding-top:40px ;
+}
+.bw{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.button-black:hover{
+    box-shadow: 0 0 10px 2px rgb(36,180,126);
+    filter: contrast(200%);
+}
+.button-green:hover{
+    box-shadow: 0 0 10px 2px rgb(36,180,126);
+    filter: brightness(120%);
+}
+.input:active,
+.input:focus{
+        outline: none !important;
+        border: 0;
+}
+.input{
+    border-radius: 3px;
+    color:rgb(42,42,42);
+    outline: none !important;
+    border: 0;
+    padding-left: 20px;
+
+}
+.docs{
+
+    margin: 0px auto;
+    margin-top: 0px;
+    padding: 10px;
+}
+.usage-install{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.text-3:hover{
+    box-shadow: 0 0 10px 2px rgb(36,180,126);
+    filter: contrast(200%);
+}
+.flex-item{
+    width: 600px;
+    
+}
+.method-description{
+    font-size: 16px;
+    margin: 10px 40px;
+    font-weight: 500;
+}
+.item-x{
+    padding-top: 75px !important;
+}
+.bottom-bar{
+    border-top: 1px solid rgb(42,42,42);
+    margin-bottom: 90px;
+    margin-top: 120px;
+}
+.heading-large{
+    font-size: 36px;
+}
+.botton-icon-text{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .heading-large{
+        font-size: 26px;
+    }
+    .body{
+        padding: 0px 20px 0px 20px ;
+    }
+    .head{
+        margin-left: 0px;
+    }
+    .nav-right{
+        margin-right: 0px;
+    }
+    .svg{
+        width: 300px;
+        margin-top: 60px;
+    }
+    .main-page-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 130px;
+    }
+    .text-1{
+        font-size: 28px;       
+
+    }
+    .item-x{
+        padding-top: 0px !important;
+    }
+    .description{
+        padding-top: 20px;
+    }
+    .text-2{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .main-text{
+        margin-top: 80px;
+    }
+    .usage-install{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+     
+    }
+    .text-3{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Fira Mono", "Andale Mono", Consolas, monospace;
+        padding: 5px 10px;
+        margin: 20px 20px;
+    }
+    .flex-item{
+       width: 98%;
+    }
+    .method-description{
+        font-size: 14px;
+        margin: 10px 20px;
+        font-weight: 500;
+    }
+    .item-x{
+        padding-top: 0px;
+    }
+    .social-text{
+        display: none;
+    }
+
+
+
+  }
